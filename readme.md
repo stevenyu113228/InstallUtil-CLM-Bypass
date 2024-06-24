@@ -13,9 +13,16 @@ chmod +x ./build.sh
 ./build.sh
 ```
 
+## Method 1
+Use to remote execute powershell runspace
+
+## Method 2
+Just spawn a powershell in the same session (NO AMSI Bypass)
+
+Edit from https://github.com/calebstewart/bypass-clm/
 
 ## Use
 Put the compiled file "install_util.exe" into any writeable folder, and execute following command
 ```
-C:\Windows\Microsoft.NET\Framework64\v4.0.30319\InstallUtil.exe /logfile= /LogToConsole=false /U install_util.exe
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\InstallUtil.exe /logfile= /LogToConsole=false /U Program.exe
 ```
